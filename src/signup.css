@@ -1,0 +1,98 @@
+.sign-house {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eff1f5;
+  color: white;
+  text-align: center;
+}
+.signup-header {
+  width: 257px;
+  height: 39px;
+
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 39px;
+
+  color: #000000;
+}
+.inp-email {
+  width: 810px;
+  height: 60px;
+  border-radius: 70px;
+  margin-bottom: -25px;
+  padding-left: 25px;
+  margin-top: -25px;
+  font-size: larger;
+  border: none;
+  background: #ffffff;
+}
+.inp-pass {
+  width: 810px;
+  height: 60px;
+  border-radius: 70px;
+  padding-left: 25px;
+  font-size: larger;
+  margin-top: -25px;
+  border: none;
+  background: #ffffff;
+}
+.sgn-2-btn {
+  width: 820px;
+  height: 80px;
+  border-radius: 70px;
+  margin-top: 25px;
+
+  background: linear-gradient(162.68deg, #7c38b3 -37.14%, #dd2a7b 159.16%);
+}
+.sgn-2-btn:hover {
+  cursor: pointer;
+}
+.sin-2-andar {
+  width: 142px;
+  height: 21px;
+  margin-left: 310px;
+
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.lbl-2-e {
+  width: 128px;
+  height: 39px;
+  margin-left: 5px;
+
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 39px;
+
+  /* identical to box height */
+
+  color: #333333;
+}
+.lbl-2-p {
+  width: 128px;
+  height: 39px;
+  margin-left: 25px;
+
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 39px;
+
+  /* identical to box height */
+
+  color: #333333;
+}

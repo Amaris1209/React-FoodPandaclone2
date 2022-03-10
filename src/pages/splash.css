@@ -1,0 +1,24 @@
+.panda-splash-logo {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 4, 101);
+  color: white;
+}
+.splash-logo {
+  width: 130px;
+  background-color: rgb(215, 4, 101);
+  animation: mymove 1s infinite;
+}
+@keyframes mymove {
+  50% {
+    transform: rotate(30deg);
+  }
+}
+.splash-logo-txt {
+  font-size: 45px;
+}

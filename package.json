@@ -5,7 +5,9 @@
   "dependencies": {
     "firebase": "^7.15.0",
     "react": "^16.8.6",
+    "react-carousel-minimal": "^1.4.1",
     "react-dom": "^16.8.6",
+    "react-responsive-carousel": "^3.2.23",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0"

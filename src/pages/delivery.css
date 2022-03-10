@@ -1,0 +1,230 @@
+.del-Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.del-Nav-1-txt {
+  color: rgb(215, 4, 101);
+  margin-top: -5px;
+  width: 100vw;
+  text-align: start;
+  padding-left: "120px";
+  font-size: 22px;
+  height: 135px;
+  padding-left: 105px;
+  padding-top: 20px;
+  box-shadow: 5px 10px 5px -7px #888888;
+}
+.del-inner-txt {
+  margin-top: -5px;
+  font-size: 18px;
+  color: gray;
+}
+.del-searchbar {
+  width: 1790px;
+  background: rgb(214 188 210 / 46%);
+  height: 60px;
+  border-width: 0px;
+  border-radius: 35px;
+  padding-left: 40px;
+  margin-left: -55px;
+}
+.del-sidebar {
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: rgb(215, 4, 101);
+  transition: all 0.5s;
+}
+.del-sidebar header {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background: rgb(215, 4, 101);
+  user-select: none;
+}
+.del-sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid black;
+  transition: 0.4s;
+}
+ul li:hover a {
+  padding-left: 50px;
+}
+.del-sidebar ul a i {
+  margin-right: 16px;
+}
+#check {
+  display: none;
+}
+label #btn,
+label #cancel {
+  position: absolute;
+  cursor: pointer;
+  background: white;
+  border-radius: 3px;
+}
+label #btn {
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all 0.5s;
+}
+
+label #cancel {
+  z-index: 1111;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  color: #0a5275;
+  padding: 4px 9px;
+  transition: all 0.5s ease;
+}
+#check:checked ~ .del-sidebar {
+  left: 0;
+}
+#check:checked ~ label #btn {
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel {
+  left: 195px;
+}
+.del-lgn {
+  margin-top: 340px;
+}
+.del-papa {
+  overflow: auto;
+  white-space: nowrap;
+  background-color: rgba(194, 189, 193, 0.46);
+  height: 370px;
+  padding-left: 20px;
+}
+.del-papa::-webkit-scrollbar {
+  display: none;
+}
+.box1 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 14px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.pic-del-add {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.del-food-papa {
+  overflow: auto;
+  white-space: nowrap;
+  background-color: white;
+  padding-left: 0px;
+  height: 370px;
+  margin-top: -60px;
+}
+.del-food-papa::-webkit-scrollbar {
+  display: none;
+}
+.del-food-box1 {
+  display: inline-block;
+  margin-right: 65px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 14px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.pic-food-del-add {
+  height: 206px;
+
+  width: 385px;
+  border-radius: 20px;
+}
+.del-homefood-papa {
+  overflow: auto;
+  white-space: nowrap;
+  background-color: white;
+  padding-left: 0px;
+  height: 370px;
+  margin-top: -60px;
+  scrollbar-color: none;
+}
+.del-homefood-papa::-webkit-scrollbar {
+  display: none;
+}
+.del-homefood-box1 {
+  display: inline-block;
+  margin-right: 65px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 14px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.pic-homefood-del-add {
+  height: 206px;
+
+  width: 385px;
+  border-radius: 20px;
+}
+.brandname {
+  font-weight: bold;
+  margin-right: 190px;
+  margin-top: 160px;
+}
+.price {
+  margin-right: 205px;
+  margin-top: -15px;
+
+  color: #706d6d;
+}
+.deliveryfees {
+  margin-right: 225px;
+  margin-top: -15px;
+  color: #706d6d;
+}
+.pandapick-para {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.Homechef-para {
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 40px;
+}
+.Ratings {
+  float: right;
+  margin-top: 145px;
+  margin-right: -75px;
+  font-weight: bold;
+}
+.tag-del-sales {
+  margin-top: -185px;
+  margin-left: -200px;
+  color: white;
+  font-weight: bold;
+}
